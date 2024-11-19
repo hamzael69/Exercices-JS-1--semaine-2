@@ -1,7 +1,7 @@
 let relache = document.querySelector('#lastname')
 
-relache.addEventListener('keydown', handleRelacheKey)
+relache.addEventListener('input', handleRelacheKey)
 
-function handleRelacheKey(event){
-    alert(event.key)
+function handleRelacheKey(){
+    alert(relache.value)
 }

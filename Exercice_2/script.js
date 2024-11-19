@@ -1,7 +1,7 @@
 let dialogue = document.querySelector('#lastname')
 
-dialogue.onblur = dialogueBlur;
+dialogue.addEventListener("blur", handleBlur)
 
-function dialogueBlur(){
-    alert(dialogue.value = "Merci de votre participation");
+function handleBlur(){
+    alert("Merci de votre participation");
 }
